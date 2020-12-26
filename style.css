@@ -220,3 +220,65 @@ footer{
 .footer-text{
   color: #fff;
 }
+
+@media screen and (max-width: 425px){
+  .social{
+    display: none;
+  }
+  .nav-list-item{
+    display: block;
+    padding: 5px;
+  }
+  .main-visual-content{
+    width: 100%;
+  }
+
+  main{
+    width: 100%;
+    display: block;
+  }
+
+  .blog{
+    width: 100%;
+  }
+
+  .blog-heading{
+    line-height: 0.6;
+    margin-bottom: 50px;
+  }
+
+  .blog-image{
+    width: 180px;
+  }
+
+  .blog-item{
+    padding: 0 ;
+  }
+
+  .blog-box{
+    padding: 0;
+  }
+
+  .category{
+    display: none;
+  }
+
+  .pagination{
+    padding: 0;
+    margin: 40px 0;
+  }
+
+  .sidebar{
+    width: 100%;
+  }
+
+  .sidebar-contents{
+    justify-content: center;
+  }
+
+  .instagram-box{
+    height:170px;
+    width: 170px;
+  }
+
+}
